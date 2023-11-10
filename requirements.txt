@@ -33,7 +33,6 @@ IMAS-IDS-Tools==1.13.0
 importlib-metadata==2.0.0
 iniconfig==1.0.1
 isort==5.11.5
-jetto-tools @ file:///home/sim/jintrac-pythontools/jetto-pythontools/dist/jetto_tools-1.8.12-py3-none-any.whl
 jmespath==0.10.0
 kiwisolver==1.4.5
 lazy-object-proxy==1.9.0
