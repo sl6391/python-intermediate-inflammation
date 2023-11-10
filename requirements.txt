@@ -67,7 +67,6 @@ requests==2.31.0
 s3transfer==0.5.0
 semantic-version==2.10.0
 setuptools-scm==7.0.4
-simdb @ git+ssh://git@git.iter.org/imex/simdb.git@28189ca81b3802fad5790a95c3191448dac84d3b
 six==1.16.0
 tblib==1.7.0
 tkcolorpicker==2.1.3
