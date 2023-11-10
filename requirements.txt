@@ -29,7 +29,6 @@ flask-restx==0.5.1
 fonttools==4.38.0
 fsspec==2021.11.0
 idna==3.3
-IMAS-IDS-Tools==1.13.0
 importlib-metadata==2.0.0
 iniconfig==1.0.1
 isort==5.11.5
