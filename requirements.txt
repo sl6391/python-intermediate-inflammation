@@ -51,7 +51,6 @@ platformdirs==3.11.0
 pluggy==0.13.1
 prominence==0.20.0
 py==1.9.0
-pycpf==0.1
 PyJWT==2.3.0
 pylint==2.13.9
 pyparsing==2.4.7
