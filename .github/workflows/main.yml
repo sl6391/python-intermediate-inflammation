@@ -30,19 +30,6 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
 
-"""
-    # a job is a seq of steps
-    steps:
-
-    # Next we need to checkout out repository, and set up Python
-    # A 'name' is just an optional label shown in the log - helpful to clarify progress - and can be anything
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Set up Python 3.9
-      uses: actions/setup-python@v2
-      with:
-        python-version: "3.9"
 
     - name: Install Python dependencies
       run: |
@@ -52,4 +39,3 @@ jobs:
     - name: Test with PyTest
       run: |
         python -m pytest --cov=inflammation.models tests/test_models.py
-"""
