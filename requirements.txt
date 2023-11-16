@@ -38,7 +38,6 @@ lazy-object-proxy==1.9.0
 locket==0.2.1
 matplotlib==3.5.3
 mccabe==0.7.0
-mpi4py==3.1.4
 msgpack==1.0.2
 mypy-extensions==1.0.0
 numpy==1.21.6
