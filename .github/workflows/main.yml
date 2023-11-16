@@ -43,15 +43,15 @@ strategy:
 
 
 # a job is a seq of steps
-    steps:
+steps:
 
-    # Next we need to checkout out repository, and set up Python
-    # A 'name' is just an optional label shown in the log - helpful to clarify progress - and can be anything
-    - name: Checkout repository
-      uses: actions/checkout@v2
+  # Next we need to checkout out repository, and set up Python
+  # A 'name' is just an optional label shown in the log - helpful to clarify progress - and can be anything
+  - name: Checkout repository
+    uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: ${{ matrix.python-version }}
+  - name: Set up Python
+    uses: actions/setup-python@v2
+    with:
+      python-version: ${{ matrix.python-version }}
     
