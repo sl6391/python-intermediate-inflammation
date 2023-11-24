@@ -65,4 +65,17 @@ def daily_min(data):
     :returns: An array of minimum values of measurements for each day.
     """
     return np.min(data, axis=0)
-    
+
+
+def standard_deviation(data):
+    """Computes and returns standard deviation for data.
+    Input = 2d inflammation data
+    Output = Standard deviation of input data
+    """
+    mmm = np.mean(data, axis=0)
+    devs = []
+    for entry in data:
+        devs.append((entry - mmm) * (entry - mmm))
+
+    standard_deviation2 = sum(devs) / len(data)
+    return {'standard deviation': standard_deviation2}
